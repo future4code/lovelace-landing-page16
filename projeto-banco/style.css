@@ -49,6 +49,10 @@ nav{
         margin-top: 18px;
         
     }
+.logo-bank {
+    text-align: center;
+    background-color: #FF914D;
+}
 
 button{
     margin-left: 90vw;
