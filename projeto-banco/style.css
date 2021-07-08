@@ -2,3 +2,48 @@
     margin: 0;
     padding: 0;
 }
+
+/* Menu */
+nav{ 
+    background-color: #FF914D;
+    height: 60px;
+}
+
+.menu {text-transform: uppercase; 
+       font-family: 'Nunito',  sans-serif; 
+       position: absolute; 
+       margin-top: 19px;
+        height: 18px; 
+       font-size: 18px;
+       letter-spacing: -1px;}
+
+
+    
+     .menu a {color: #fff; 
+             padding-left: 15px; 
+             padding-right: 11px;
+             text-shadow: 0px 1px 2px #ffbd59; 
+             padding-top: 5px; 
+             padding-bottom: 5px;   
+             background-position: 0px 4px;}
+    
+    .menu a:hover {color: transparent;
+         padding-left: 15px;
+          padding-right: 11px; 
+          text-shadow: 0px 11px 0px #ffbd59; }  
+     
+    a:link{
+        text-decoration: none;
+    } 
+
+    .position-barrinha{
+        margin-left: 146px;
+        margin-top: 18px;
+        
+    }
+    
+    .position-barrinha2{
+        margin-left: 186px;
+        margin-top: 18px;
+        
+    }
