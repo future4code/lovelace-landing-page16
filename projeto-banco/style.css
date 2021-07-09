@@ -39,17 +39,11 @@ nav{
         text-decoration: none;
     } 
 
-    .position-barrinha{
-        margin-left: 146px;
-        margin-top: 18px;
-        
-    }
+.barrinha{
+    color: white;
     
-    .position-barrinha2{
-        margin-left: 186px;
-        margin-top: 18px;
-        
-    }
+}
+
 .logo-bank {
     text-align: center;
     background-color: #FF914D;
@@ -117,7 +111,7 @@ p {
     color: #FF914D;
 }
 .newsletter p {
-    font-size: 1.2em;
+    font-size: 16px;
     color: black;
 }
 .newsletter form {
@@ -136,16 +130,18 @@ p {
     float: left;
 }
 .newsletter button {
-    width: 22%;
-    height: 45%;
-    background-color: #FF914D;
+
     padding: 15px 10px;
     border-radius: 10px;
-	float:left;
-    cursor: pointer;
     margin:10px;
 }
 
+.input-newsletters {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
 
 footer{
     background-color: black;
@@ -165,12 +161,12 @@ footer{
 .transparencia{
     width: 200px ;
     height: 200px ;
-    border: thin solid #1C1C1C;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    
 }
 
 .redes{
@@ -187,12 +183,6 @@ footer{
     margin-left: 15px;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
 
 hr{
     border-color: #1C1C1C; 
@@ -225,6 +215,7 @@ section {
     align-items: center;
     text-align: center;
 }
+
    
   }
 
@@ -238,3 +229,26 @@ section {
       width: 130px;
   }
 
+  .botao-contato {
+    display: flex;
+    background-color: #FF914D;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:#fff
+  }
+
+.cor-da-fonte-rodape {
+    color:#FF914D;
+}
+
+.cor-texto-rodape {
+    color: white;
+    font-size: 16px;
+}
+
+.info {
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+}
