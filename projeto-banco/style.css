@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 /* Menu */
 nav{ 
     background-color: #FF914D;
@@ -24,7 +25,7 @@ nav{
 .menu a {color: #fff; 
          padding-left: 15px; 
         padding-right: 11px;
-        text-shadow: 0px 1px 2px #ffbd59; 
+        text-shadow: 0px 1px 2px #FF914D; 
         padding-top: 5px; 
         padding-bottom: 5px;   
         background-position: 0px 4px;}
@@ -54,6 +55,10 @@ nav{
     background-color: #FF914D;
 }
 
+.logo-redimensionada {
+    width: 320px;
+}
+
 button{
     margin-left: 90vw;
     background-color: white; 
@@ -73,18 +78,7 @@ button{
     margin-top: -30px;
 }
 
-.container-logo{
-    width: 100%;
-    background-color: #ff914d;
-    margin-top: 10px;
-    height: 480px;
-    position: absolute;
-}
 
-.position-logo{
-    margin-top: 10px;
-    margin-left: 620px;
-}
 /* Body */
 
 body {
@@ -94,6 +88,7 @@ body {
 
 .quem-somos-produtos {
     text-align: center;
+    align-items: center;
     padding: 25px;
     margin: 25px;
 }
@@ -106,7 +101,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .redes-sociais {
@@ -115,3 +110,40 @@ p {
     margin: 25px;
 }
 
+.texto {
+  text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+   
+  }
+
+  .redes-sociais {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imagem {
+      width: 130px;
+  }
