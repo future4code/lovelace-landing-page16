@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Menu */
+nav{ 
+    background-color: #FF914D;
+    height: 60px;
+}
+
+.menu {text-transform: uppercase; 
+       font-family: 'Nunito',  sans-serif; 
+       position: absolute; 
+       margin-top: 19px;
+       height: 18px; 
+       font-size: 18px;
+       letter-spacing: -1px;}
+
+
+    
+.menu a {color: #fff; 
+         padding-left: 15px; 
+        padding-right: 11px;
+        text-shadow: 0px 1px 2px #FF914D; 
+        padding-top: 5px; 
+        padding-bottom: 5px;   
+        background-position: 0px 4px;}
+    
+    .menu a:hover {color: transparent;
+         padding-left: 15px;
+         padding-right: 11px; 
+         text-shadow: 0px 11px 0px black; }  
+     
+    a:link{
+        text-decoration: none;
+    } 
+
+.barrinha{
+    color: white;
+    
+}
+
+.logo-bank {
+    text-align: center;
+    background-color: #FF914D;
+}
+
+.logo-redimensionada {
+    width: 320px;
+}
+
+button{
+    margin-left: 90vw;
+    background-color: white; 
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+}
+
+.position-button{
+    margin-top: -30px;
+}
+
+
+/* Body */
+
+body {
+   font-family: open sans;
+    
+}
+
+.quem-somos-produtos {
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    color:#FF914D;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* ESTILIZANDO O FORMULÁRIO */
+.newsletter{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color:ghostwhite;
+    padding: 50px 8%;
+}
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #FF914D;
+}
+.newsletter p {
+    font-size: 16px;
+    color: black;
+}
+.newsletter form {
+    width: 100%;
+     float: left;
+      margin-top: 10px;
+}
+.newsletter form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border:1px solid black;
+	border-radius: 5px;
+    color: black;
+    background-color: initial;
+    float: left;
+}
+.newsletter button {
+
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.input-newsletters {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 480px ;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    
+}
+
+.painel{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.transparencia{
+    width: 200px ;
+    height: 200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+.redes img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+
+hr{
+    border-color: #1C1C1C; 
+    margin-top: 30px;
+}
+
+
+.texto {
+  text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+   
+  }
+
+  .redes-sociais {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imagem {
+      width: 130px;
+  }
+
+  .botao-contato {
+    display: flex;
+    background-color: #FF914D;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:#fff
+  }
+
+.cor-da-fonte-rodape {
+    color:#FF914D;
+}
+
+.cor-texto-rodape {
+    color: white;
+    font-size: 16px;
+}
+
+.info {
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+}
